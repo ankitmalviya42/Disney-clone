@@ -1,0 +1,32 @@
+
+Step 1: $ npm cache clean --force
+
+Step 2: Delete node_modules by $ rm -rf node_modules (rmdir /S /Q node_modules in windows) folder or delete it manually by going into the directory and right-click > delete / move to trash. If are not updating your packages you can delete the package-lock.json file too.
+
+Step 3: npm install
+
+To start again, $ npm start 
+
+This worked for me. Hopes it works for you too.
+
+PS: Still if it is there, kindly check the error it is displaying in red and act accordingly. This error is specific to node.js environment. Happy Coding!!
+
+
+
+
+firebase deployed
+
+
+1. firebase install 
+
+2. firebase login
+
+3. npm run build 
+
+4.firebase init
+
+5. what do you want to use AS your  public  directory 
+
+the type is => bulid
+
+6. firebase deploy
